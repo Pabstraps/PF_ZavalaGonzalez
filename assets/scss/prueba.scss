@@ -1,7 +1,10 @@
 @import"colores";
 
+
+
 body {
       background-color:$color-fondo;
+      height: 100%;
 }
 
 .vertical_nav {
@@ -100,3 +103,31 @@ body {
 
 }
 
+.producto_info {
+      padding: 80px;
+}
+
+.producto__descripcion {
+      border-top-style: solid;
+      padding: 10px;
+}
+
+.producto__envio {
+      border-style: solid;
+
+}
+
+
+.carrito__footer{
+      padding-top: 25%;
+}
+
+.busqueda__filtro{
+
+     padding-top: 30px;
+     padding-left: 30px;
+}
+
+.busqueda__resultados{
+      padding-top: 50px;
+}
